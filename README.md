@@ -2,6 +2,10 @@
 
 A fun and interactive number guessing game built with HTML, CSS, and JavaScript. Try to guess the secret number while racing against time and maintaining your high score!
 
+## Live Demo
+
+[Live Demo](https://qs3h.github.io/Guess-My-Number-Game/)
+
 ## Features
 
 - 🎮 Three difficulty levels:
