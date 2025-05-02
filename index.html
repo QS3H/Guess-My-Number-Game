@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Guess My Number!</title>
+  </head>
+  <body>
+    <header>
+      <h1>Guess My Number!</h1>
+      <button class="btn again" aria-label="Start new game">Again!</button>
+      <select
+        id="difficulty"
+        class="difficulty"
+        aria-label="Select difficulty level"
+      >
+        <option value="easy">Easy (1-10)</option>
+        <option value="medium" selected>Medium (1-20)</option>
+        <option value="hard">Hard (1-50)</option>
+      </select>
+      <p class="between">(Between 1 and 20)</p>
+      <div class="number" role="status" aria-label="Secret number">?</div>
+    </header>
+    <main>
+      <section class="left">
+        <input
+          type="number"
+          class="guess"
+          aria-label="Enter your guess"
+          min="1"
+          max="20"
+        />
+        <button class="btn check" aria-label="Check guess">Check!</button>
+        <button class="btn hint" aria-label="Get a hint" style="display: none">
+          Hint
+        </button>
+      </section>
+      <section class="right">
+        <p class="message" role="status" aria-live="polite">
+          Start guessing...
+        </p>
+        <p class="label-score">💯 Score: <span class="score">20</span></p>
+        <p class="label-highscore">
+          🥇 Highscore: <span class="highscore">0</span>
+        </p>
+        <p class="timer" style="margin-top: 2rem">
+          ⏱️ Time: <span class="time">00:00</span>
+        </p>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
