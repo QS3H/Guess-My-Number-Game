@@ -4,7 +4,7 @@ A fun and interactive number guessing game built with HTML, CSS, and JavaScript.
 
 ## Live Demo
 
-[Live Demo](https://qs3h.github.io/Guess-My-Number-Game/)
+[Guess My Number Game](https://qs3h.github.io/Guess-My-Number-Game/)
 
 ## Features
 
